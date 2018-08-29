@@ -1,3 +1,40 @@
+/* Color Palette
+Blue - 2B4971
+Gloom Blue - 375571
+White - F2EEE3
+Cream - F3DBB6
+Bronze - BF7B4F
+-------*/
+
+/* Global styles
+----------------------*/
 body {
-  background: lightblue;
+
+}
+a {
+  color: #BF7B4F;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/*Header and Footer
+----------------------*/
+header, footer {
+  background: #2B4971;
+  color: #F3DBB6;
+}
+header h1, header h2 {
+  color: #F2EEE3;
+}
+/*Work Experience
+----------------------*/
+.work {
+  background: #375571;
+}
+
+/*Education
+----------------------*/
+.education {
+  background: #375571;
 }
