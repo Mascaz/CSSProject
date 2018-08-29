@@ -8,11 +8,19 @@ Bronze - BF7B4F
 
 /* Global styles
 ----------------------*/
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
   /*font-family: 'Press Start 2P', cursive; Stylized font for pixel look*/
   /*font-family: 'Kelly Slab', cursive;*/
   /*font-family: 'VT323', monospace; Stylized Font pseudo pixel*/
   font-family: 'Source Code Pro', monospace;
+  margin: 0;
 }
 h1, h2 {
   font-family: 'Kelly Slab', cursive;
@@ -23,6 +31,7 @@ h1 {
 }
 h2 {
   font-size: 40px;
+  margin-top: 0px;
 }
 a {
   color: #BF7B4F;
@@ -30,15 +39,47 @@ a {
 a:hover {
   text-decoration: none;
 }
-
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: auto;
+}
+.col-narrow {
+  width: 30%;
+  float: left;
+  min-height: 175px;
+}
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 20px;
+  min-height: 175px;
+}
 /*Header and Footer
 ----------------------*/
 header, footer {
   background: #2B4971;
   color: #F3DBB6;
 }
+
+/* header */
 header h1, header h2 {
   color: #F2EEE3;
+  margin: 0;
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
 }
 /*Work Experience
 ----------------------*/
