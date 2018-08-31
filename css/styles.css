@@ -101,6 +101,9 @@ footer {
   padding: 10px;
   display: inline-block;
 }
+i {
+  font-size: 30px;
+}
 /* Navigation
 ------------------------*/
 nav {
