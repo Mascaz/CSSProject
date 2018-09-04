@@ -136,6 +136,10 @@ h3 ~ p {
 ----------------------*/
 .education {
   background: #375571;
+  background: linear-gradient(rgba(55, 85, 113, 0.8),
+               rgba(55, 85, 113, 0.5)),
+               url(../images/davide-cantelli-153517-unsplash.jpg) no-repeat 50% 15%;
+  background-size: cover;
 }
 p + h3 {
   margin-top: 30px;
