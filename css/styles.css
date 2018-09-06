@@ -116,9 +116,18 @@ nav a {
 ----------------------*/
 .work {
   background: #375571;
+  /* background: linear-gradient(rgba(55, 85, 113, 1), */
+               /* rgba(55, 85, 113, 1)), */
+               /* url(../images/dlanor-s-703975-unsplash.jpg) no-repeat right; */
+  background-size: cover;
 }
 .job-description p:first-of-type {
   margin-top: 0;
+}
+
+.work .job-info {
+  color: black;
+  padding-bottom: 20px;
 }
 h3 ~ p {
   margin: 0;
@@ -132,6 +141,13 @@ h3 ~ p {
                rgba(55, 85, 113, 0.5)),
                url(../images/davide-cantelli-153517-unsplash.jpg) no-repeat 50% 15%;
   background-size: cover;
+}
+.edu-description p:first-of-type {
+  margin-top: 0;
+}
+.education .edu-info {
+  color: black;
+  padding-bottom: 20px;
 }
 p + h3 {
   margin-top: 30px;
